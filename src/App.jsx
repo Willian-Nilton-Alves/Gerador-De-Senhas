@@ -6,8 +6,8 @@ function App() {
   const [passwordSize, setPasswordSize] = useState(12);
 
   function generate() {
-    const characters = "!@#$%¨&*(";
-    let newPassword = "";
+    const characters = "zxcvbnmasdfghjklçqwertyuiop!@#$%¨&*()";
+    let newPassword = "";"
     const maxLength = 100; // Limite máximo de caracteres
     const length = Math.min(passwordSize, maxLength); // Verifica o tamanho máximo da senha
     for (let i = 0; i < length; i++) {
