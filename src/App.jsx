@@ -6,13 +6,8 @@ function App() {
   const [passwordSize, setPasswordSize] = useState(12);
 
   function generate() {
-<<<<<<< HEAD
-    const characters = "zxcvbnmasdfghjklçqwertyuiop!@#$%¨&*()";
-    let newPassword = "";"
-=======
-    const characters = "qwertyuioplkjhgfdsazxcvbnm!@#$%¨&*()";
+    const characters = "asdfghjkqwertyuio!@#$%¨&*(";
     let newPassword = "";
->>>>>>> 7cfb4145fa2ba982a12791ba71c558cb40c0595f
     const maxLength = 100; // Limite máximo de caracteres
     const length = Math.min(passwordSize, maxLength); // Verifica o tamanho máximo da senha
     for (let i = 0; i < length; i++) {
